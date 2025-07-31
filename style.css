@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222831;
+  font-family: 'Courier New', monospace;
+  color: #DFD0B8;
+}
+
+.ghost-profile {
+  position: relative;
+  width: 320px;
+  margin: 100px auto;
+  background-color: #393E46;
+  border: 2px solid #948979;
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.ghost-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px dashed #948979;
+  position: relative;
+  z-index: 1;
+}
+
+.ghost-name {
+  margin: 20px 0 5px;
+  position: relative;
+}
+
+.curse-level {
+  font-size: 0.9rem;
+  color: #DFD0B8;
+  margin-bottom: 15px;
+}
+
+.floating-label {
+  position: absolute;
+  top: 10px;
+  left: -25px;
+  background-color: #948979;
+  color: #222831;
+  padding: 5px 10px;
+  font-weight: bold;
+  transform: rotate(-15deg);
+  border-radius: 5px;
+}
+
+.sticky-note {
+  position: sticky;
+  top: 10px;
+  background-color: #DFD0B8;
+  color: #222831;
+  padding: 10px;
+  font-size: 0.85rem;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.fixed-alert {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #948979;
+  color: #222831;
+  border: none;
+  padding: 12px 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 0 8px #DFD0B8;
+}
+
